@@ -50,4 +50,56 @@ section#login > div#imagem{
 section#login > div#formulario{
     display: block;
     padding: 10px;
+    max-width: 400px;
+    margin: 0 auto;
 }
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p{
+    font-size: 0.8em;
+    margin-bottom:10px;
+}
+
+.campo {
+    position: relative;
+    margin-bottom: 20px;
+        
+    }
+
+    .campo i.material-icons {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #234721;
+
+        }
+
+        .campo input {
+            width: 100%;
+            padding: 10px 10px 10px 40px; /* Espaço extra à esquerda para o ícone */
+            box-sizing: border-box;
+            border: 1px solid #0e0d0d6c;
+            border-radius: 4px;
+
+            }
+
+            .campo label {
+                position: absolute;
+                left: 40px; /* Espaço para o ícone */
+                top: -18px;
+                background-color: rgb(255, 255, 255);
+                padding: 0 5px;
+                font-size: 14px;
+                color: #777;
+
+                }
+
+                .campo input:focus + label {
+                    color: #333;
+                    font-weight: bold;
+
+                    }
