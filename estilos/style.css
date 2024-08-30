@@ -64,42 +64,85 @@ div#formulario > p{
 }
 
 .campo {
-    position: relative;
-    margin-bottom: 20px;
+position: relative;
+margin-bottom: 20px;
         
     }
 
-    .campo i.material-icons {
-        position: absolute;
-        left: 10px;
-        top: 50%;
-        transform: translateY(-50%);
-        color: #234721;
+.campo i.material-icons {
+position: absolute;
+left: 10px;
+top: 50%;
+transform: translateY(-50%);
+color: #234721;
 
-        }
+}
 
-        .campo input {
-            width: 100%;
-            padding: 10px 10px 10px 40px; /* Espaço extra à esquerda para o ícone */
-            box-sizing: border-box;
-            border: 1px solid #0e0d0d6c;
-            border-radius: 4px;
+.campo input {
+width: 100%;
+padding: 10px 10px 10px 40px; /* Espaço extra à esquerda para o ícone */
+box-sizing: border-box;
+border: 1px solid #0e0d0d6c;
+border-radius: 4px;
 
-            }
+}
 
-            .campo label {
-                position: absolute;
-                left: 40px; /* Espaço para o ícone */
-                top: -18px;
-                background-color: rgb(255, 255, 255);
-                padding: 0 5px;
-                font-size: 14px;
-                color: #777;
+.campo label {
+position: absolute;
+left: 40px; /* Espaço para o ícone */
+top: -18px;
+background-color: rgb(255, 255, 255);
+padding: 0 5px;
+font-size: 14px;
+color: #777;
 
-                }
+}
 
-                .campo input:focus + label {
-                    color: #333;
-                    font-weight: bold;
+.campo input:focus + label {
+color: #333;
+font-weight: bold;
 
-                    }
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #00aa0ed7;
+    color: white;
+   border: none;
+   border-radius:5px;
+   cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: #063611e0;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:white ;
+    border: 1px solid #32ad3cd7 ;
+    text-decoration:none;
+    color:#2a4b2dd7;
+    font-weight: normal;
+    padding-top:7px;
+    margin-top:6px;
+}
+
+form > a.botao:hover{
+    background-color:  #32ad3cd7;
+}
+
+form > a.botao > i{
+    font-size: 0.8em;
+}
+
+form > div.campo{
+    background-color:#C1954D ;
+}
